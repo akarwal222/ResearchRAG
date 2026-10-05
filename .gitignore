@@ -1,0 +1,20 @@
+.venv/
+__pycache__/
+*.pyc
+*.egg-info/
+.env
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Data and artifacts
+data/papers/
+data/chroma/
+evaluation/results/
+nohup.out
+*.log
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

@@ -1,0 +1,17 @@
+# PyTorch is expected to be installed already (RunPod template, or the CUDA
+# build from https://pytorch.org/get-started/locally/ on your own machine).
+pymupdf>=1.24
+sentence-transformers>=3.0
+chromadb>=0.5
+ollama>=0.3
+fastapi>=0.110
+uvicorn[standard]>=0.29
+python-multipart>=0.0.9
+pydantic>=2.6
+pydantic-settings>=2.2
+gradio>=4.30
+requests>=2.31
+tqdm>=4.66
+numpy>=1.26
+httpx>=0.27
+pytest>=8.0
