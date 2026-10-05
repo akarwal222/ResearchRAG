@@ -36,7 +36,7 @@ class Settings(BaseSettings):
 
     # Retrieval
     top_k: int = 5
-    score_threshold: float = 0.30  # cosine similarity floor; below = "not found"
+    score_threshold: float = 0.55  # cosine similarity floor; below = "not found"
     max_context_chars: int = 6000  # hard cap on the context sent to the LLM
 
     # Generation
@@ -45,6 +45,7 @@ class Settings(BaseSettings):
     llm_temperature: float = 0.1
     llm_num_ctx: int = 8192
     llm_timeout_s: float = 120.0
+    llm_keep_alive: str = "30m"  # keep the model in VRAM between requests
 
     # API
     api_host: str = "127.0.0.1"
